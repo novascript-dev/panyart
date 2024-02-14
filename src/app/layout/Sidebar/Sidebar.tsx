@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "./assets/panyart2.png";
+import Link from "next/link";
 
 export default function Sidebar() {
   return (
@@ -13,16 +14,16 @@ export default function Sidebar() {
           className={`border-b my-3 border-custom-pany-three
             border-opacity-50`}
         >
-          <a>Home</a>
+          <Link href={"/pages/home"}>Home</Link>
         </span>
         <span className="border-b my-3 border-custom-pany-three">
-          <a>Queue</a>
+          <Link href={"/pages/queue"}>Queue</Link>
         </span>
         <span className="border-b my-3 border-custom-pany-three">
-          <a>Prices</a>
+          <Link href={"/pages/prices"}>Prices</Link>
         </span>
         <span className="border-b my-3 border-custom-pany-three">
-          <a>Rules</a>
+          <Link href={"/pages/rules"}>Rules</Link>
         </span>
       </div>
     </div>

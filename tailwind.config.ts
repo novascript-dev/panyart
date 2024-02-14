@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        custom: {
+          "pany-one": "#fce2ad",
+          "pany-two": "#fdf6f1",
+          "pany-three": "#784410",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
